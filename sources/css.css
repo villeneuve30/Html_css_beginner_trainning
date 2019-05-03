@@ -1,0 +1,584 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style-type: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Css reset */
+
+header{
+    position: fixed;
+	z-index: 9999;
+	background-color: #2D2D7B;
+	width: 100%;
+}
+
+nav{
+	display: inline-block;
+	padding-bottom: 10px;
+}
+
+ul{
+	margin-left:300px;
+}
+li{
+	border-radius: 30px;
+}
+
+p {
+	margin: 0px 40px 0px 40px;
+	text-align: justify;
+	font-family: 'Gentium Book Basic', serif;
+	font-size: 15px;
+}
+#copirigth {
+	margin:0px;
+	margin-left: 40px;
+}
+
+
+h1 {
+	font-size: 25px;
+	font-weight: bold;
+	color: #1c586e;
+	margin-bottom: 10px;
+	text-align: center;
+	font-family: 'Gentium Book Basic', serif;
+}
+
+b {
+	color: #1c586e;
+	font-weight: bold;
+}
+
+li {
+	border-bottom: 2px solid white;
+	text-align: center;
+	padding: 10px 0;
+	font-family: 'Gentium Book Basic', serif;
+	background-color: #2D2D7B;
+}
+
+li:hover {
+	background-color: #2D2D7B;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+hr {
+	width: 70%;
+	display: block;
+	margin: 30px auto 30px auto;
+}
+
+footer {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: #2D2D7B;
+}
+
+button {
+	font-family: 'Gentium Book Basic', serif;
+	font-weight: bold;
+}
+
+.premiere_nav {
+	border-top: 2px solid white;
+}
+
+.nav_boutique {
+	background-color: #0aa55a;
+}
+
+.nav_boutique:hover {
+	background-color: #2D2D7B;
+}
+
+#logo_haut{
+    display: inline-block;
+	width: 49%;
+	margin-left: 150px;
+  vertical-align: top;
+}
+
+.titre_1_mobile {
+	margin: 110px auto 20px auto;
+	width: 100%;
+}
+
+.titre_mobile {
+	margin: 0px auto 20px auto;
+	width: 100%;
+}
+
+.photo_mobile {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.texte_centre {
+	text-align: center;
+}
+
+#logo_footer {
+	width: 50%;
+	display: block;
+	margin:auto;
+	margin-bottom: 0px;
+}
+
+#newsletter {
+	text-align: center;
+	margin-bottom: 1%;
+}
+
+.input_email {
+	width: 40%;
+	text-align: center;
+	vertical-align: middle;
+	margin-bottom: 1%;
+}
+
+#bouton_form {
+	position: absolute;
+	right: 0;
+	background-color: #1c586e;
+	color: white;
+	border: 2px solid white;
+}
+
+#reseaux_1, #reseaux_2, #drapeaux {
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+#reseaux_1 {
+	width: 80%;
+}
+
+#reseaux_2 {
+	width: 30%;
+}
+
+#separation_2 {
+	margin-top: 0px;
+}
+
+#drapeaux {
+	width: 50%;
+}
+
+.reseaux, .drapeaux {
+	display: inline-block;
+	width: 33px;
+	height: 33px;
+}
+.reseaux{
+margin-left: 2%;
+vertical-align: top;
+}
+
+.titre_desktop {
+	display: none;
+}
+
+#icones_desktop {
+	display: none;
+}
+
+.photo_desktop{
+	display: none;
+}
+
+/* Nos produits */
+
+.cadre {
+	border: 2px solid #9b7f60;
+	width: 90%;
+	margin: 0px auto 40px auto;
+}
+
+.image_cadre_mobile {
+	display: block;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.bouton_boutique {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #1c586e;
+	color: white;
+	border: 2px solid white;
+	width: 200px;
+	height: 30px;
+	margin-bottom: 20px;
+}
+
+.image_savoirfaire_mobile {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.image_savoirfaire_desktop {
+	display: none;
+}
+
+#photo_desktop_produits {
+	display: none;
+}
+
+.image_cadre_desktop {
+	display: none;
+}
+
+/*Infos utiles*/
+
+#input_text {
+	width: 70%;
+    height: 200px;
+	vertical-align: middle;
+	margin: 0px 0px 0px 40px;
+}
+#bouton_envoyer {
+	width: 200px;
+	height: 30px;
+	margin: 10px 0px 40px 40px;
+	background-color: #1c586e;
+	color: white;
+	border: 2px solid white;
+}
+
+.icone_mobile {
+	display: inline-block;
+	vertical-align: middle;
+	width: 33px;
+	height: 33px;
+}
+
+.icone_desktop {
+	display: none;
+}
+
+.titre_infos_utiles {
+	display: inline-block;
+	padding: 10px;
+	width: 75%;
+}
+
+.icone_titre {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#nous_contacter {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* A propos */
+
+#titre_a_propos {
+	font-size: 40px;
+	display: block;
+	padding-top: 110px;
+}
+
+#a_propos_desktop {
+	display: none;
+}
+
+#a_propos_mobile {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media screen and (min-width: 768px){
+
+	header {
+		position: static;
+	}
+
+	p {
+		font-size: 17px;
+	}
+
+	li {
+		display: inline-block;
+		width: 150px;
+		border-bottom: none;
+		border-right: 2px solid white;
+		margin-right: -0.25em;
+		padding: none;
+	}
+
+	#menuToggle {
+		display: none;
+	}
+
+	#menu_mobile {
+		display: none;
+	}
+
+	#logo_haut {
+		display: block;
+		width: 30%;
+		margin: 0px auto 40px auto;
+	}
+
+	#menu_desktop {
+		display: block;
+		margin:auto;
+	}
+
+	.premiere_nav {
+		border-top: none;
+		background-color: black;
+	}
+
+	.titre_1_mobile {
+		display: none;
+	}
+
+	.titre_desktop {
+		display: block;
+		margin: 20px auto 40px auto;
+	}
+
+	#logo_footer {
+		display: inline-block;
+		width: 30%;
+		margin: 0px 0px 30px 0px;
+	}
+
+	#newsletter_desktop {
+		display: inline-block;
+		width: 50%;
+		vertical-align: top;
+		margin-bottom: 0px;
+	}
+
+	.input_email {
+		margin-left: 100px;
+		height: 30px;
+	}
+
+	#bouton_form {
+		margin-right: 60%;
+		width: 10%;
+		height: 35px;
+	}
+
+	#reseaux_1, #reseaux_2, #drapeaux {
+		display: none;
+	}
+
+	#separation_2 {
+		display: none;
+	}
+
+	#icones_desktop {
+		display: block;
+	}
+
+	#drapeaux_desktop {
+		display: inline-block;
+		width: 400px;
+		vertical-align: top;
+	}
+
+	.photo_desktop {
+		display: flex;
+		width: 70%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20px;
+	}
+
+	#photo1_accueil {
+		display: inline-block;
+		margin: auto;
+	}
+
+	#photo2_accueil {
+		display: inline-block;
+		float: right;
+		margin: auto;
+	}
+
+	#photo1_accueil_aligne {
+		display: inline-block;
+		width: 45%;
+		margin: auto;
+	}
+
+	#photo2_accueil_aligne {
+		display: inline-block;
+		width: 40%;
+		float: right;
+		margin: auto;
+	}
+
+	/* Nos produits */
+
+	.image_cadre_mobile {
+		display: none;
+	}
+
+	.image_savoirfaire_mobile {
+		display: none;
+	}
+
+	.aligne_blocs {
+		display: inline-block;
+		width: 40%;
+		margin-bottom: 40px;
+		margin-left: 6%;
+		vertical-align: top;
+	}
+
+	.image_savoirfaire_desktop {
+		display: inline-block;
+		margin-left: 10%;
+	}
+
+	#photo1_produits {
+		display: inline-block;
+		width: 45%;
+		margin: auto;
+	}
+
+	#photo2_produits {
+		display: inline-block;
+		width: 45%;
+		margin: auto;
+		float: right;
+	}
+
+	#photo_desktop_produits {
+		display: flex;
+		width: 70%;
+		height: 350px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20px;
+	}
+
+	.texte_cadre {
+		width: 49%;
+		display: inline-block;
+	}
+
+	.image_cadre_desktop {
+		width: 49%;
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.bouton_boutique {
+		width: 300px;
+		height: 60px;
+		font-size: 20px;
+	}
+	/* Infos Utiles */
+
+	#input_email_infos_utiles {
+		width: 30%;
+		margin-left: 40px;
+	}
+
+	#input_text {
+		width: 60%;
+	}
+
+	.icone_desktop {
+		display: inline-block;
+		vertical-align: middle;
+		width: 60px;
+		height: 60px;
+	}
+
+	.icone_mobile {
+		display: none;
+	}
+
+	.titre_infos_utiles {
+		padding: 0px;
+		width: 80%;
+	}
+
+	#nous_contacter {
+		width: 30%;
+	}
+
+	#bouton_envoyer {
+		width: 300px;
+		height: 60px;
+	}
+
+	/* A propos */
+
+	#titre_a_propos {
+		padding-top: 30px;
+	}
+
+	#a_propos_desktop {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#a_propos_mobile {
+		display: none;
+	}
+
+}
